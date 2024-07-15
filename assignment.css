@@ -1,0 +1,296 @@
+.container{
+position: relative;
+height: 100vh;
+}
+
+.logo{
+    position:absolute;
+    left:20px;
+    width: 100px;
+    height:auto;
+    margin: 10px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.navlink{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    right: 30px;
+    gap: 30px;
+    right: 30px;
+}
+.navlinks{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.body{
+    background-color: white;
+    height: 100%;
+    width: 100vw;
+    border-radius: 25px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+#design{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter ;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hover :hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 7px;
+
+    
+
+}
+#Hover :hover{
+    background-color: gainsboro;
+    border-radius: 45px;
+
+}
+hover{
+    padding: 20px;
+    
+}
+.search2{
+border: none;
+width: 80%;
+padding: 10px;
+border-radius: 60px;
+margin: 10px;
+display: grid;
+gap: 1px;
+box-shadow: 1px 1px 5px #000000;
+grid-template-columns: 200px 200px 180px 310px ;
+margin-left: 15%;
+margin-right: 20%;
+justify-content: center;
+}
+.search2 div{
+    /* border: solid; */
+    /* margin: 12px; */
+    /* border-radius: 45px; */
+    padding-left: 17px;
+    
+
+}
+input{
+
+    border: none;
+    display: block;
+    margin-top: 10px;
+    
+}
+.gen{
+    
+    display:block; 
+
+}
+#Hover :hover {
+    background-color: gainsboro;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+p{
+    font-size: xx-small;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:4px;
+    
+}
+ .row img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 4px;
+    
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:4px;
+    
+}
+ .row1 img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 4px;
+    
+}
+.row2{
+    display:flex;
+    
+    
+    
+}
+ .row2 img{
+    width: 300px;
+    height: 250px;
+    border-radius:4px
+    
+}
+.row3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:4px;
+    
+    
+}
+ .row3 img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius:4px ;
+    
+}
+.row4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:4px;
+    
+    
+}
+ .row4 img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius:4px ;
+    
+}
+.row5{
+    display:flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap:4px;
+    
+    
+}
+ .row5 img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius:4px ;
+    
+    
+}
+button{
+    display:flex;
+    justify-content: space-around;
+    width: 80px;
+    height: 30px;
+    
+}
+.pics{
+    overflow:hidden;
+    overflow-x: visible;
+    padding: 0%;
+    overflow-y: auto; 
+}
+.pics img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.heading{
+margin: 20px;
+}
+.bottom{
+margin: 20px;
+}
+.down{
+display: flex;
+justify-content: space-between;
+}
+.Grid{
+display: grid;
+grid-template-columns:180px 180px 180px 180px 180px 180px;
+gap: 30px;
+margin-top: 30px;
+}
+.g{
+width: 150px;
+height: 35px;
+
+}
+.placeholder{
+font-size: x-small;
+font-weight: bold;
+background-color: gainsboro;
+
+}
+.Listing{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    gap: 20%;
+}
+.listing{
+    width:max-content
+}
+.listing a :hover{
+    text-decoration: underline;
+}
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+  }
+  
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left ul,
+  .footer-right ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .footer-left ul li,
+  .footer-right ul li {
+    margin-right: 10px;
+  }
+  
+  .footer-left ul li.separator,
+  .footer-right ul li.separator {
+    color: #333333;
+  }
+  
+  .globe-logo,
+  .facebook-logo,
+  .twitter-logo,
+  .instagram-logo {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+
+
+
+    
